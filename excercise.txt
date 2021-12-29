@@ -1,0 +1,121 @@
+var people=[
+    {
+        id:"R161248",
+        firstname:"Venkata",
+        lastname:"Kishore",
+        email:"kishore@gmail.com",
+        age:22,
+        profession:"Full Stack Developer",
+        city:"Nellore",
+        phoneno:"6303448475",
+    },
+    {
+        id:"R161287",
+        'firstname':"Patil",
+        lastname:"Nikhil",
+        email:"nikhil@gmail.com",
+        age:23,
+        profession:"Python Developer",
+        city:"Ananthpur",
+        phoneno:"8937773892",
+    },
+    {
+        id:"R161297",
+        firstname:"Lokesh",
+        lastname:"Rahul",
+        email:"lokesh@gmail.com",
+        age:21,
+        profession:"Software Developer",
+        city:"Chittor",
+        phoneno:"6303448465",
+    },
+    {
+        id:"R161332",
+        firstname:"Naga",
+        lastname:"Teja",
+        email:"teja@gmail.com",
+        age:20,
+        profession:"Front End Developer",
+        city:"Puttaparthi",
+        phoneno:"6303448456",
+    },
+    {
+        id:"R161286",
+        firstname:"Sasidhar",
+        lastname:"Reddy",
+        email:"sasidhar@gmail.com",
+        age:20,
+        profession:"Mobile Application Developer",
+        city:"Hyderabad",
+        phoneno:"9877654425",
+    },
+    {
+        id:"R161214",
+        firstname:"Supriya",
+        lastname:"Reddy",
+        email:"supriya@gmail.com",
+        age:22,
+        profession:"Mern Stack Developer",
+        city:"Chitor",
+        phoneno:"6303448980",
+    },
+    {
+        id:"R161256",
+        firstname:"Meghna",
+        lastname:"Reddy",
+        email:"meghna@gmail.com",
+        age:19,
+        profession:"CBI",
+        city:"Prakasam",
+        phoneno:"6303448789",
+    },
+    {
+        id:"R161248",
+        firstname:"Kiran",
+        lastname:"Kumar",
+        email:"kiran@gmail.com",
+        age:24,
+        profession:"Byjus Teacher",
+        city:"Bangalore",
+        phoneno:"6303448678",
+    },
+    {
+        id:"R161335",
+        firstname:"Chenna",
+        lastname:"Govardhan",
+        email:"govardhan@gmail.com",
+        age:25,
+        profession:"Back End Developer",
+        city:"Kadhiri",
+        phoneno:"87793888993",
+    },
+    {
+        id:"R161300",
+        firstname:"L S",
+        lastname:"Sadharak",
+        email:"Sadharak.com",
+        age:23,
+        profession:"Farmer",
+        city:"Tirupathi",
+        phoneno:"87766367739",
+    }
+]
+
+//Normal For Loop
+for(let i=0;i<people.length;i++)
+{
+    console.log(people[i]);
+}
+
+//For of Loop
+for(var i of people)
+{
+    console.log(i.id);
+    console.log(i.firstname);
+    console.log(i.lastname);
+    console.log(i.age);
+    console.log(i.profession);
+    console.log(i.city);
+    console.log(i.phoneno);
+}
+//For in Loop
