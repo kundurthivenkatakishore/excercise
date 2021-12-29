@@ -113,9 +113,33 @@ for(var i of people)
     console.log(i.id);
     console.log(i.firstname);
     console.log(i.lastname);
+    console.log(i.email);
     console.log(i.age);
     console.log(i.profession);
     console.log(i.city);
     console.log(i.phoneno);
 }
 //For in Loop
+for(var i in people)
+{
+    console.log(people[i].id);
+    console.log(people[i].firstname);
+    console.log(people[i].lastname);
+    console.log(people[i].email);
+    console.log(people[i].age);
+    console.log(people[i].profession);
+    console.log(people[i].city);
+    console.log(people[i].phoneno);
+
+}
+//For each Loop
+people.forEach(objects => {
+    console.log(objects.id);
+    console.log(objects.firstname);
+    console.log(objects.lastname);
+    console.log(objects.email);
+    console.log(objects.age);
+    console.log(objects.profession);
+    console.log(objects.city);
+    console.log(objects.phoneno);
+});
